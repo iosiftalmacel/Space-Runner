@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8187c71c8077ff346be5299cbc9607f4, type: 3}
+  m_Name: DashItem
+  m_EditorClassIdentifier: 
+  autoUse: 0
+  canBeMerged: 1
+  activeDuration: 2.5
+  spawnProbability: 22
+  effects:
+  - startTriggerState: 2
+    stopTriggerState: 2
+    startDelay: 0
+    stopDelay: 3
+    prefab: {fileID: 106162, guid: 827fc25a0e88dc34f9fa7656e0583d5e, type: 2}
+    relativePosition: {x: 0, y: 0.7099991, z: 0.47}
+    parentPlayer: 1
+    effectInstance: {fileID: 0}
+    started: 0
+    stopped: 0
+    startedTime: 0
+    stoppedTime: 0
+  uiSprite: {fileID: 21300000, guid: fecc0ccc5cc7c2243ac598cb166bcd20, type: 3}
+  speed: 100
+  accelerationWindow: 0.3
+  deccelerationWindow: 0.3
